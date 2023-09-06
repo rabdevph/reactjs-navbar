@@ -1,7 +1,82 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./assets/fonts/OpenSans-VariableFont_wdth,wght.ttf');
+  font-size: 100 900;
+}
+
+@font-face {
+  font-family: 'Rubik Black';
+  src: url('./assets/fonts/Rubik-ExtraBold.ttf');
+}
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* NAVBAR */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #171717;
+  padding: 0 2rem;
+  height: 4rem;
+  width: 100%;
+}
+
+/* BRAND */
+.brand {
+  /* background-color: rebeccapurple; */
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  width: max-content;
+}
+
+.brand-logo {
+  height: 24px;
+}
+
+.brand-text {
+  color: #ffffff;
+  font-family: 'Rubik Black', sans-serif;
+  font-size: 1.25rem;
+}
+
+/* LINKS */
+.links {
+  display: flex;
+  height: 100%;
+  min-width: max-content;
+  list-style-type: none;
+}
+
+.link {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 0.75rem;
+  font-weight: 700;
+  outline: none;
+  cursor: pointer;
+  padding: 0 1rem;
+  height: 100%;
+  position: relative;
+}
+
+.link:hover {
+  background-color: #0a0a0a;
+}
+
+.link.active {
+  background-color: #ea580c;
 }
