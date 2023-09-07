@@ -1,0 +1,17 @@
+/* BRAND */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  width: max-content;
+}
+
+.brand-logo {
+  height: 24px;
+}
+
+.brand-text {
+  color: #ffffff;
+  font-family: 'Rubik Black', sans-serif;
+  font-size: 1.25rem;
+}
