@@ -2,12 +2,12 @@
 .brand {
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 0.25rem;
   width: max-content;
 }
 
 .brand-logo {
-  height: 24px;
+  height: 1.5rem;
 }
 
 .brand-text {

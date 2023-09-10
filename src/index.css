@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./assets/fonts/OpenSans-VariableFont_wdth,wght.ttf');
+  font-size: 100 900;
+}
+
+@font-face {
+  font-family: 'Rubik Black';
+  src: url('./assets/fonts/Rubik-ExtraBold.ttf');
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list.active {
+  @apply flex items-center justify-center h-[calc(100vh-64px)] w-full;
+}
+
+.nav-list-item.active {
+  @apply flex items-center justify-center text-base font-bold h-16 w-full hover:bg-neutral-950;
+}
