@@ -13,11 +13,11 @@ const App = () => {
     <>
       <Navbar />
       <Routes>
-        <Route path='/reactjs-navbar/' element={<Content />}>
+        <Route path='reactjs-navbar' element={<Content />}>
           <Route index element={<Home />} />
-          <Route path='/reactjs-navbar/about' element={<About />} />
-          <Route path='/reactjs-navbar/services' element={<Services />} />
-          <Route path='/reactjs-navbar/contact' element={<Contact />} />
+          <Route path='about' element={<About />} />
+          <Route path='services' element={<Services />} />
+          <Route path='contact' element={<Contact />} />
           <Route path='*' element={<NotFound />} />
         </Route>
       </Routes>
