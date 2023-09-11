@@ -21,8 +21,15 @@
   padding: 0;
 }
 
+@layer utilities {
+  .h-custom {
+    /* small viewport height - header height */
+    height: calc(100svh - 64px);
+  }
+}
+
 .nav-list.active {
-  @apply flex items-center justify-center h-[calc(100vh-64px)] w-full;
+  @apply flex items-center justify-center h-custom w-full;
 }
 
 .nav-list-item.active {
