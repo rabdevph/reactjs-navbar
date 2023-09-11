@@ -11,10 +11,10 @@ const Navbar = () => {
   const [selectedItem, setSelectedItem] = useState(null);
 
   const linkArray = [
-    { id: 1, text: 'HOME', to: '/reactjs-navbar/' },
-    { id: 2, text: 'ABOUT', to: '/reactjs-navbar/about' },
-    { id: 3, text: 'SERVICES', to: '/reactjs-navbar/services' },
-    { id: 4, text: 'CONTACT', to: '/reactjs-navbar/contact' },
+    { id: 1, text: 'HOME', to: '/' },
+    { id: 2, text: 'ABOUT', to: 'about' },
+    { id: 3, text: 'SERVICES', to: 'services' },
+    { id: 4, text: 'CONTACT', to: 'contact' },
   ];
 
   const handleItemClick = (id) => {

@@ -13,7 +13,7 @@ const App = () => {
     <>
       <Navbar />
       <Routes>
-        <Route path='reactjs-navbar' element={<Content />}>
+        <Route path='/' element={<Content />}>
           <Route index element={<Home />} />
           <Route path='about' element={<About />} />
           <Route path='services' element={<Services />} />
