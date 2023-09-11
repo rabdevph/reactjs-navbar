@@ -28,10 +28,18 @@
   }
 }
 
-.nav-list.active {
+.nav-list.mobile {
   @apply flex items-center justify-center h-custom w-full;
 }
 
-.nav-list-item.active {
-  @apply flex items-center justify-center text-base font-bold h-16 w-full hover:bg-neutral-950;
+.nav-list-item.selected {
+  @apply md:bg-orange-500;
+}
+
+.nav-list.mobile > .nav-list-item {
+  @apply flex items-center justify-center text-base font-bold h-16 w-full active:font-black md:active:font-bold;
+}
+
+.nav-list.mobile > .nav-list-item.selected {
+  @apply bg-orange-500;
 }
