@@ -6,7 +6,7 @@ This is a simple sample project showcasing a responsive navigation bar built usi
 
 - **Responsive Navigation Bar**: The navigation bar is designed to adapt to different screen sizes, ensuring a seamless user experience on various devices.
 
-- **Page Routing**: We have implemented page routing using React Router DOM, allowing you to simulate page changes when clicking on links. This makes it easy to navigate between different sections of your website without requiring a full page reload.
+- **Page Routing**: I have implemented page routing using React Router DOM, allowing you to simulate page changes when clicking on links. This makes it easy to navigate between different sections of your website without requiring a full page reload.
 
 ## Technologies Used
 
@@ -17,45 +17,3 @@ This is a simple sample project showcasing a responsive navigation bar built usi
 - **React Router DOM**: A popular library for handling routing in React applications, enabling smooth and efficient navigation.
 
 - **Vite**: A fast development build tool that helps you get started quickly with modern web development, including React.
-
-## Getting Started
-
-To get started with this project, follow these steps:
-
-1. Clone the repository to your local machine:
-
-   ```
-   git clone https://github.com/rabdevph/reactjs-navbar.git
-   ```
-
-2. Install the project dependencies:
-
-   ```
-   npm install
-   ```
-
-3. Start the development server:
-
-   ```
-   npm run dev
-   ```
-
-4. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to see the React JS NavBar in action.
-
-## Usage
-
-You can use this sample project as a starting point for building your own navigation bar with React JS, Tailwind CSS, React Router DOM, and Vite. Feel free to customize and extend it to suit your specific needs.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
-
-## Author
-
-- [Ralph Arsy Bauto](https://github.com/rabdevph)
-
-## Acknowledgments
-
-- Special thanks to the React, Tailwind CSS, React Router DOM, and Vite communities for their fantastic libraries and resources that make projects like this possible.
-
-Feel free to reach out if you have any questions or need further assistance with this project.
